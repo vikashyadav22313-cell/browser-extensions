@@ -30,12 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./design/desktop-design-dark.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://browser-extensions-page.netlify.app/]
+- Live Site URL: [https://github.com/vikashyadav22313-cell/browser-extensions.git]
 
 ## My process
 
