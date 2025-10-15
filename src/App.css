@@ -162,7 +162,7 @@ ul{
     & .info{
       display: flex;
       gap: 1.5rem;
-      & img{
+      & .extension-app{
         width: 3.5rem;
         height: 3.5rem;
       }
