@@ -62,9 +62,11 @@ export function HeaderPage({ isLight, toggleMood }) {
       <header>
         <div className="header-content">
           {isLight ? (
-            <img src="/images/logo-dark.svg" alt="logo" />
+      <a href="/">
+            <img src="/images/logo-dark.svg" alt="logo" /></a>
           ) : (
-            <img src="/images/logo.svg" alt="logo" />
+      <a href="/">
+            <img src="/images/logo.svg" alt="logo" /></a>
           )}
 
           <div className="mode-box" tabIndex="0" onClick={toggleMood}>
