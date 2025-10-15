@@ -112,7 +112,7 @@ export function HeaderPage({ isLight, toggleMood }) {
             return (
               <li key={curEl.name}>
                 <div className="info">
-                  <img src={curEl.logo} alt={curEl.name} />
+                  <img src={curEl.logo} alt={curEl.name} className="extension-app"/>
                   <div>
                     <h2>{curEl.name}</h2>
                     <p>{curEl.description}</p>
