@@ -236,6 +236,11 @@ ul{
 .hidden{
   display: none;
 }
+@media(prefers-reduced-motion: reduce){
+  .slider{
+    transition:none;
+  }
+}
 
 /* light mode  */
 
@@ -295,7 +300,7 @@ ul{
   
   }
 }
-  @media (max-width:76.8rem){
+  @media (76.8rem>=width){
     .header-title{
      flex-direction: column;
      gap: 1rem;
