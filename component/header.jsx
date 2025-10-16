@@ -124,8 +124,7 @@ export function HeaderPage({ isLight, toggleMood }) {
                   </button>
                   <label className="switch">
                     <input
-                      type="checkbox"
-                      id="toggle"
+                      type="checkbox
                       checked={onlineStatusMap.get(curEl.name)}
                       onChange={(e) => handleCheck(e, curEl)}
                     />
