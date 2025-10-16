@@ -58,7 +58,7 @@ export function HeaderPage({ isLight, toggleMood }) {
   }, [isOnline]);
 
   return (
-    <section className="main-container">
+    <div className="main-container">
       <header>
         <div className="header-content">
           {isLight ? (
@@ -137,6 +137,6 @@ export function HeaderPage({ isLight, toggleMood }) {
           })}
         </ul>
       </main>
-    </section>
+    </div>
   );
 }
